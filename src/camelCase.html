@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+    <title>camelCase</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sofia+Sans+Semi+Condensed:wght@600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div>
+      <h1>camelCase</h2>
+      <p>
+          In JavaScript, camel case is a naming convention where the first word of the identifier starts with a lowercase letter, and the first letter of each subsequent concatenated word starts with an uppercase letter. 
+          It's widely adopted in JavaScript for naming variables, functions, and object properties.
+
+          <h3>Examples of camel case naming in JavaScript:</h3>
+          <ol>
+          <li>firstName</li>
+              <li>calculateTotalPrice</li>
+                  <li>getUserInfo</li>
+                      <li>setBackgroundColor</li>
+                          <li>findLongestWord</li>
+                              <li>isUserLoggedIn</li>
+                                  <li>convertToUpperCase</li>
+                                      <li>retrieveDatabaseRecord</li>
+                                          <li>displayErrorMessage</li>
+                                              <li>processPaymentDetails</li>
+          </ol>
+      </p>
+    </div>
+    <div>
+      <p>
+        <h3>In JavaScript, there isn't a single "best" naming convention; the right one largely depends on the context in which you're working. However, there are widely accepted conventions and best practices that are commonly followed by the JavaScript community. Here's a summary:</h3></p>
+        <ul style="list-style: none">
+          <li>
+        1. **Variables**: Use `camelCase`.
+        
+            Example: 
+            ```javascript
+            let userAge = 25;
+            ```
+          </li>
+          
+          <li>
+        2. **Constants**: Use `UPPER_CASE` with underscores. This is especially common for values that won't change after they are initially set.
+        
+            Example:
+            ```javascript
+            const MAX_ATTEMPTS = 5;
+            ```
+          </li>
+            <li>
+        3. **Functions**: Use `camelCase`.
+        
+            Example:
+            ```javascript
+            function calculateTotalPrice() { ... }
+            ```
+          </li>
+            <li>
+        4. **Classes**: Use `PascalCase` (like camelCase, but starting with an uppercase letter). This convention comes from the broader object-oriented programming community.
+        
+            Example:
+            ```javascript
+            class UserAccount { ... }
+            ```
+          </li>
+            <li>
+        5. **Modules and Filenames**: Conventionally, many developers use either `kebab-case` (all lowercase with hyphens) or `camelCase` for module filenames.
+        
+            Examples:
+            - `user-profile.js` (kebab-case)
+            - `userProfile.js` (camelCase)
+        
+          </li>
+            <li>
+        6. **Private variables**: Some developers use a leading underscore `_` to denote private variables or methods, although this is not enforced by the language.
+        
+            Example:
+            ```javascript
+            let _privateVar = "secret";
+            ```
+          </li>
+            <li>
+        7. **Event Handlers**: It’s common to prefix the handler name with "on" followed by what's triggering the event.
+        
+            Example:
+            ```javascript
+            function onButtonClick() { ... }
+            ```
+          </li>
+            <li>
+        8. **Boolean variables and functions**: Often prefixed with `is`, `has`, `can`, or similar words.
+        
+            Examples:
+            ```javascript
+            let isActive = true;
+            function isUserLoggedIn() { ... }
+            ```
+          </li>
+            <li>
+        9. **Enumerations**: Use `PascalCase` and for the keys use `UPPER_CASE`.
+        
+            Example:
+            ```javascript
+            const COLORS = {
+                RED: "#FF0000",
+                GREEN: "#00FF00",
+                BLUE: "#0000FF"
+            };
+            ```
+          </li>
+        </ul>
+        <p>
+        Despite these conventions, consistency within a project or organization is key. If you're working on an existing project, follow the conventions established in that project. If you're starting a new project, set your conventions early and document them, so all contributors are aware.
+        
+        Lastly, some popular style guides, like Airbnb's JavaScript Style Guide, provide comprehensive guidelines on naming and other aspects of JS code style. Consider adopting or referencing these style guides if you need a thorough set of coding standards.
+      </p>
+
+      
+      </div>
+  </body>
+</html>
